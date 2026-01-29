@@ -15,7 +15,19 @@ The app predicts a student's **writing score** based on:
 - Streamlit
 
 ## How to Run the Project
+1. Clone the repository
+2. Install dependencies
+   pip install -r requirements.txt
+3. Run the Streamlit app
+   streamlit run app.py
 
-1. Install dependencies:
-```bash
-pip install streamlit scikit-learn pandas numpy
+## Machine Learning Model
+- Random Forest Regressor
+- Trained on student performance dataset
+
+## Future Improvements
+- Deploy app on Streamlit Cloud
+- Add more input features
+- Improve model accuracy
+
+
