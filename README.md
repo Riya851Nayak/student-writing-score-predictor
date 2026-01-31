@@ -1,6 +1,15 @@
 # Student Writing Score Predictor
-
 This is a Machine Learning web application built using **Streamlit**.
+
+# Structure 
+student-writing-score-predictor/
+│
+├── app.py
+├── models/
+│   └── writing_score_model.pkl
+├── README.md
+├── requirements.txt
+
 
 ## Project Overview
 The app predicts a student's **writing score** based on:
@@ -29,5 +38,11 @@ The app predicts a student's **writing score** based on:
 - Deploy app on Streamlit Cloud
 - Add more input features
 - Improve model accuracy
+
+# important points
+- Built an end-to-end Machine Learning web application using Streamlit
+- Trained and deployed a regression model to predict student writing scores
+- Implemented model saving/loading using Joblib
+- Created an interactive UI for real-time predictions
 
 
